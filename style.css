@@ -1,0 +1,44 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    
+    /* what is padding  */
+
+
+}
+
+
+body{
+    background-color:burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     height:100vh; /*  ye isliye kukui ye bhi utni hi height lega jitan content present h iske andhar */
+     box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    
+}
+
+
+#first1{
+    height:500px;
+    width:500px;
+    background-color:cadetblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#change{
+    flex-grow:8 ;
+}
+button{
+    cursor: pointer;
+    /* curser converted into pointer wen ever our curser goes to login button  */
+}
